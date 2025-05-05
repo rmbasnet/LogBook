@@ -1,7 +1,9 @@
 //js for api calls
 //seprate files for api calls
 
-const API_KEY = "f616e3104da7312f90a4367f9846a44f"
+require('dotenv').config();
+const apiKey = process.env.API_KEY;
+
 const BASE_URL = "https://api.themoviedb.org/3"
 
 
